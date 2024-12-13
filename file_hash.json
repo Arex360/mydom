@@ -707,14 +707,6 @@
     "path": "dominance\\My Dominance_Data\\resources.assets.resS",
     "md5": "e4f4a053128707b936859247d4754f6f"
   },
-  "RuntimeInitializeOnLoads.json": {
-    "path": "dominance\\My Dominance_Data\\RuntimeInitializeOnLoads.json",
-    "md5": "74e44be9543bbefcefd654fdacf6458e"
-  },
-  "ScriptingAssemblies.json": {
-    "path": "dominance\\My Dominance_Data\\ScriptingAssemblies.json",
-    "md5": "2af5fdffb89cecd27dc48a3231323b24"
-  },
   "sharedassets0.assets": {
     "path": "dominance\\My Dominance_Data\\sharedassets0.assets",
     "md5": "7d7692df2b702f73396f6bcec5c2d136"
