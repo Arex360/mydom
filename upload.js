@@ -23,6 +23,12 @@ function calculateMD5(filePath) {
 // Function to upload a file to Apillon
 async function uploadToApillon(filePath, filename) {
     let actualPath = filePath;
+    //filePath = filePath.replace('/', /\\/g);  // Replace backslashes with forward slashes
+    dirs = filePath.split('/');
+    // Remove last dir
+    dirs.pop();
+    // Join them back
+    filePath = dirs.join('/') + '/';
     console.log(filePath);
     
     try {
