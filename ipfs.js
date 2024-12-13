@@ -67,7 +67,6 @@ function collectFiles(dirPath, fileList = []) {
         localPath.includes('.gitignore') ||
         localPath.includes('resource.json') ||
         localPath.includes('package-lock.json') ||
-        localPath.includes('file_hash.json') ||
         localPath.includes('upload.js') ||
         localPath.includes('.js') ||
         localPath.includes('node_modules') ||
