@@ -25,7 +25,7 @@ function traverseDirectory(dirPath, fileHashData) {
 
     if (stat.isDirectory()) {
       // Skip the node_modules folder
-      if (file === 'node_modules') {
+      if (file === 'node_modules' || file == ".git") {
         continue;
       }
       // Recurse into other directories
