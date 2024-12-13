@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 import cliProgress from 'cli-progress'; // Import the progress bar library
 
 // Initialize IPFS client with your custom API address
-const ipfs = create({ url: 'http://vpn2.itsarex.com:5002/' });
+const ipfs = create({ url: 'http://localhost:5002/' });
 
 let project_files = {};
 let resource_data = {};
