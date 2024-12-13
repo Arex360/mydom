@@ -73,32 +73,24 @@ app.get('/download', (req, res) => {
   }
 
   // Refresh file hashes on each download request
-  const fileHashData = {};
-  traverseDirectory(__dirname, fileHashData);
 
+  //traverseDirectory(__dirname, fileHashData);
+  let fileHashData = JSON.parse(fs.readFileSync('resource.json', 'utf8'))
   // Check if the file exists in the updated file_hash data
   let fileData = fileHashData[filename];
 
   if (!fileData) {
     return res.status(404).send('File not found');
   }
-
-  fileData.path = path.join(__dirname, fileData.path);
-  // Resolve the absolute path
-  const filePath = path.resolve(fileData.path);
-
-  // Check if the file exists on the filesystem
-  if (!fs.existsSync(filePath)) {
-    return res.status(404).send('File no longer exists on the server');
-  }
+  res.send(fileData)
 
   // Send the file for download
-  res.download(filePath, filename, (err) => {
+  /*res.download(filePath, filename, (err) => {
     if (err) {
       console.error(err);
       res.status(500).send('Error downloading the file');
     }
-  });
+  });*/
 });
 
 // Endpoint to verify file MD5 hash

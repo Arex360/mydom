@@ -10,6 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "@apillon/sdk": "^3.7.0",
+    "express": "^4.21.2",
+    "ipfs-http-client": "^60.0.1"
   }
 }
