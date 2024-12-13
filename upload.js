@@ -29,6 +29,7 @@ async function uploadToApillon(filePath, filename) {
     dirs.pop();
     // Join them back
     filePath = dirs.join('/') + '/';
+    filePath = "/" + filePath;
     console.log(filePath);
     
     try {
