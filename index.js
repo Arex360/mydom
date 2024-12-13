@@ -102,8 +102,8 @@ app.get('/verify', (req, res) => {
   }
 
   // Refresh file hashes on each verify request
-  const fileHashData = {};
-  traverseDirectory(__dirname, fileHashData);
+  const fileHashData = JSON.parse(fs.readFileSync('file_hash.json', 'utf8'))
+  //traverseDirectory(__dirname, fileHashData);
 
   // Check if the file exists in the updated file_hash data
   let fileData = fileHashData[filename];
@@ -124,7 +124,7 @@ app.get('/verify', (req, res) => {
 
 // Call the function to generate file hash data at server startup
 app.listen(3003, () => {
-    Filehash(); 
+    
   
   console.log('Server started on port 3003');
 });

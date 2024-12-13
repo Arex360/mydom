@@ -1,1 +1,746 @@
-{}
+{
+  "D3D12Core.dll": {
+    "path": "dominance\\D3D12\\D3D12Core.dll",
+    "md5": "7fc05c9a8366d19302dfd13d09d3ebac"
+  },
+  "mono-2.0-bdwgc.dll": {
+    "path": "dominance\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll",
+    "md5": "e4f80d5861c8f217795d0abeeee596ce"
+  },
+  "MonoPosixHelper.dll": {
+    "path": "dominance\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll",
+    "md5": "0a36537102dc76a6e5703f7f96484238"
+  },
+  "Compat.browser": {
+    "path": "dominance\\MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser",
+    "md5": "0d831c1264b5b32a39fa347de368fe48"
+  },
+  "DefaultWsdlHelpGenerator.aspx": {
+    "path": "dominance\\MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx",
+    "md5": "f7be9f1841ff92f9d4040aed832e0c79"
+  },
+  "machine.config": {
+    "path": "dominance\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config",
+    "md5": "25ff1ec49e3ac9285bd943cf036bd813"
+  },
+  "settings.map": {
+    "path": "dominance\\MonoBleedingEdge\\etc\\mono\\4.5\\settings.map",
+    "md5": "ba17ade8a8e3ee221377534c8136f617"
+  },
+  "web.config": {
+    "path": "dominance\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config",
+    "md5": "5075af18fe1d2b5f9555d5cc68029814"
+  },
+  "browscap.ini": {
+    "path": "dominance\\MonoBleedingEdge\\etc\\mono\\browscap.ini",
+    "md5": "378be809df7d15aac75a175693e25fbb"
+  },
+  "config": {
+    "path": "dominance\\MonoBleedingEdge\\etc\\mono\\config",
+    "md5": "67611b783439b35abfe05a97413bba46"
+  },
+  "config.xml": {
+    "path": "dominance\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml",
+    "md5": "f34b330f20dce1bdcce9058fca287099"
+  },
+  "My Dominance.exe": {
+    "path": "dominance\\My Dominance.exe",
+    "md5": "7b93db89812640b225711c292b40ca25"
+  },
+  "app.info": {
+    "path": "dominance\\My Dominance_Data\\app.info",
+    "md5": "39aec16f2ea2cc0bc8b5b461203f6713"
+  },
+  "boot.config": {
+    "path": "dominance\\My Dominance_Data\\boot.config",
+    "md5": "19c99369add7e56c8114a1933b3ee176"
+  },
+  "globalgamemanagers": {
+    "path": "dominance\\My Dominance_Data\\globalgamemanagers",
+    "md5": "575fce2f39c610566649fbd99342671f"
+  },
+  "globalgamemanagers.assets": {
+    "path": "dominance\\My Dominance_Data\\globalgamemanagers.assets",
+    "md5": "44a4f04b954091283dadda4fa20b1eee"
+  },
+  "globalgamemanagers.assets.resS": {
+    "path": "dominance\\My Dominance_Data\\globalgamemanagers.assets.resS",
+    "md5": "514a1cc086f10116559e37f95ebb3205"
+  },
+  "level0": {
+    "path": "dominance\\My Dominance_Data\\level0",
+    "md5": "5d1eca0fff6ccbc473d2caa34b5e3b75"
+  },
+  "level1": {
+    "path": "dominance\\My Dominance_Data\\level1",
+    "md5": "c6c6177455d0692be90fccd083939ab0"
+  },
+  "Assembly-CSharp.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Assembly-CSharp.dll",
+    "md5": "4ecc67635e374991483303dc9642db13"
+  },
+  "Concentus.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Concentus.dll",
+    "md5": "85d4524fbef01483fe0556c5a2b0af99"
+  },
+  "EasyButtons.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\EasyButtons.dll",
+    "md5": "316e80b6773faeb6a8c7c1a2d531299f"
+  },
+  "Edgegap.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Edgegap.dll",
+    "md5": "76dc5072944534ebc5f94fd0905374df"
+  },
+  "GLTFSerialization.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\GLTFSerialization.dll",
+    "md5": "8647f7471f75441cb1b62efbe534b748"
+  },
+  "kcp2k.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\kcp2k.dll",
+    "md5": "33d3779d87a35488679248a17b394643"
+  },
+  "Mirror.Authenticators.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Mirror.Authenticators.dll",
+    "md5": "ca64cd0032841abdc38d97f6f580e7f4"
+  },
+  "Mirror.BouncyCastle.Cryptography.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Mirror.BouncyCastle.Cryptography.dll",
+    "md5": "ee909f54b1db5b37cf8def6462d5cc95"
+  },
+  "Mirror.Components.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Mirror.Components.dll",
+    "md5": "edd7409a3b9d4aa3219763128ea4be37"
+  },
+  "Mirror.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Mirror.dll",
+    "md5": "e1bf4047858094c83163ff976194f731"
+  },
+  "Mirror.Examples.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Mirror.Examples.dll",
+    "md5": "6aa39fad1825cab67b4e49743d1e65f6"
+  },
+  "Mirror.Transports.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Mirror.Transports.dll",
+    "md5": "e6244f9abbd7d59d0d3d739cfb949c86"
+  },
+  "Mono.Security.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Mono.Security.dll",
+    "md5": "2f7208a1b0ceadd4dbe88f0219bd8af0"
+  },
+  "mscorlib.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\mscorlib.dll",
+    "md5": "536977bf4ae5dffc7e24a7f09a855396"
+  },
+  "Nakama.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Nakama.dll",
+    "md5": "bde6987f7c4382167554789265313b31"
+  },
+  "NakamaEditor.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\NakamaEditor.dll",
+    "md5": "f2aff56ded454eabfbe6a55935ebf40f"
+  },
+  "NakamaRuntime.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\NakamaRuntime.dll",
+    "md5": "ae04981d1eb96c27e901fb2da9a481d8"
+  },
+  "netstandard.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\netstandard.dll",
+    "md5": "c61967ebe7f07f6a5a1b3f91842bbc3c"
+  },
+  "Newtonsoft.Json.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Newtonsoft.Json.dll",
+    "md5": "d751086b7423fd5580b5e909b06217b9"
+  },
+  "PlayFab.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\PlayFab.dll",
+    "md5": "396b944167c15cd06634ce282818d227"
+  },
+  "Satori.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Satori.dll",
+    "md5": "00de0be21904edd28015d71ffb3fa9c2"
+  },
+  "SimpleWebTransport.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\SimpleWebTransport.dll",
+    "md5": "720d42ea35924474ecd03c8b92a66766"
+  },
+  "System.ComponentModel.Composition.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.ComponentModel.Composition.dll",
+    "md5": "b7251884a34c745d5f8cbf15187dd013"
+  },
+  "System.Configuration.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Configuration.dll",
+    "md5": "f163847afbdb621a8a911c225ea9d247"
+  },
+  "System.Core.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Core.dll",
+    "md5": "e468473d31ae53b80cace277db10a68a"
+  },
+  "System.Data.DataSetExtensions.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Data.DataSetExtensions.dll",
+    "md5": "2e5987243799adf1d05205f73ceba83c"
+  },
+  "System.Data.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Data.dll",
+    "md5": "c92fdf4fb018d0bd1e256535268279e3"
+  },
+  "System.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.dll",
+    "md5": "48f4fbd586d3e8e7a8088d173ca4fb04"
+  },
+  "System.Drawing.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Drawing.dll",
+    "md5": "1b4e9ec02ef373725ecfdfe34c10edec"
+  },
+  "System.EnterpriseServices.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.EnterpriseServices.dll",
+    "md5": "6632de9fcac2d6118dc6a39d7f43644e"
+  },
+  "System.IO.Compression.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.IO.Compression.dll",
+    "md5": "6d44479923e6a88b8a05f2171c9c192d"
+  },
+  "System.IO.Compression.FileSystem.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.IO.Compression.FileSystem.dll",
+    "md5": "17748550b0a6325d89b9585f8eb65a2a"
+  },
+  "System.Memory.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Memory.dll",
+    "md5": "dc68c8815bb99c40707580880fe08055"
+  },
+  "System.Net.Http.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Net.Http.dll",
+    "md5": "98c1a3267bce46257e1e5e7e906105ae"
+  },
+  "System.Numerics.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Numerics.dll",
+    "md5": "a379a9d4bb1a8d00e526331821749e05"
+  },
+  "System.Numerics.Vectors.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Numerics.Vectors.dll",
+    "md5": "3410edc672836cfd905180066b32abb3"
+  },
+  "System.Runtime.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Runtime.dll",
+    "md5": "77d74adcdea84d53a1fbe89e79737c1e"
+  },
+  "System.Runtime.Serialization.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Runtime.Serialization.dll",
+    "md5": "49d62a9b5a5ee5733339b4dc0b088c2e"
+  },
+  "System.Security.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Security.dll",
+    "md5": "95ea0c0d494ca4776244415fd1337c28"
+  },
+  "System.ServiceModel.Internals.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.ServiceModel.Internals.dll",
+    "md5": "1dca4d523570fb132f924cd4349eb1c7"
+  },
+  "System.Transactions.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Transactions.dll",
+    "md5": "61ec31a7afa8e2ff0b5895f3d54502e7"
+  },
+  "System.Xml.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Xml.dll",
+    "md5": "e616c7565b5f1c3bda53d76fbfbfcd85"
+  },
+  "System.Xml.Linq.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\System.Xml.Linq.dll",
+    "md5": "dc1fa33ef037bc9a71aa272adaf5f6de"
+  },
+  "Telepathy.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Telepathy.dll",
+    "md5": "014aad51ad4a9ffcede14b1c7002b121"
+  },
+  "Unity.AI.Navigation.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.AI.Navigation.dll",
+    "md5": "c82296d8406c361b7249a0dd4fc08d94"
+  },
+  "Unity.Burst.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Burst.dll",
+    "md5": "0d7840fe7dc5f8c3084ce468a43ae1be"
+  },
+  "Unity.Burst.Unsafe.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Burst.Unsafe.dll",
+    "md5": "129351e9879a83262ea92a4a45aacc46"
+  },
+  "Unity.Collections.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Collections.dll",
+    "md5": "1fc71a7c8d3ca9db62ff6d7002bbe158"
+  },
+  "Unity.Collections.LowLevel.ILSupport.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Collections.LowLevel.ILSupport.dll",
+    "md5": "6988e30bd4d788c70d564ee21c52ab1a"
+  },
+  "Unity.InputSystem.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.InputSystem.dll",
+    "md5": "5122ff39f9e3d0345a0b6182b28deeb5"
+  },
+  "Unity.InputSystem.ForUI.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.InputSystem.ForUI.dll",
+    "md5": "8c09cc3c07c3b4d6a84bb964a801ef53"
+  },
+  "Unity.Mathematics.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Mathematics.dll",
+    "md5": "c321820fc1f89a5cbf60c713ae808ceb"
+  },
+  "Unity.Multiplayer.Center.Common.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Multiplayer.Center.Common.dll",
+    "md5": "d8d0f6d94877cbf9d6845a74155db98a"
+  },
+  "Unity.Recorder.Base.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Recorder.Base.dll",
+    "md5": "842d1305696099a74e620d5fb28c719c"
+  },
+  "Unity.Recorder.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Recorder.dll",
+    "md5": "81ce2ef88c213a01e3b62366f2fb5e31"
+  },
+  "Unity.Rendering.LightTransport.Runtime.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Rendering.LightTransport.Runtime.dll",
+    "md5": "b5504e84f4aa8c1ec8f329f5dc2fcff6"
+  },
+  "Unity.RenderPipeline.Universal.ShaderLibrary.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+    "md5": "7605719e5a21ac8d6493d6bee902c437"
+  },
+  "Unity.RenderPipelines.Core.Runtime.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll",
+    "md5": "26a5dd98557403bfd6f0129d6d50efa2"
+  },
+  "Unity.RenderPipelines.Core.Runtime.Shared.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipelines.Core.Runtime.Shared.dll",
+    "md5": "7255032846ba8d708841edab2b02fd9e"
+  },
+  "Unity.RenderPipelines.Core.ShaderLibrary.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipelines.Core.ShaderLibrary.dll",
+    "md5": "42330e116c4394bc535550df4465899f"
+  },
+  "Unity.RenderPipelines.GPUDriven.Runtime.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipelines.GPUDriven.Runtime.dll",
+    "md5": "bb8bd43675877076ec8564116bffabc2"
+  },
+  "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+    "md5": "49b5082fc438784516d69bcbc5549c5f"
+  },
+  "Unity.RenderPipelines.Universal.2D.Runtime.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipelines.Universal.2D.Runtime.dll",
+    "md5": "497e5fe88dd7bcfb1bc2159f67d15273"
+  },
+  "Unity.RenderPipelines.Universal.Config.Runtime.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipelines.Universal.Config.Runtime.dll",
+    "md5": "d4ced1c619ed8650fc09dfbabdc917be"
+  },
+  "Unity.RenderPipelines.Universal.Runtime.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll",
+    "md5": "ac0a34e10a62c2ff34835df00e96ac86"
+  },
+  "Unity.RenderPipelines.Universal.Shaders.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.RenderPipelines.Universal.Shaders.dll",
+    "md5": "b7a67394651ffe51e93894527cba844a"
+  },
+  "Unity.TextMeshPro.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.TextMeshPro.dll",
+    "md5": "0b81ac7e220cc12ed2197656419a4da6"
+  },
+  "Unity.Timeline.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.Timeline.dll",
+    "md5": "0400b7c29d5837ef09acae01e768e667"
+  },
+  "Unity.VisualScripting.Antlr3.Runtime.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.VisualScripting.Antlr3.Runtime.dll",
+    "md5": "62a6ef88ac683a13104417515323896b"
+  },
+  "Unity.VisualScripting.Core.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.VisualScripting.Core.dll",
+    "md5": "6b5def49a002790034cdf67ca65828cd"
+  },
+  "Unity.VisualScripting.Flow.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.VisualScripting.Flow.dll",
+    "md5": "f85dad043ff0fa12d0d6d137c26ea833"
+  },
+  "Unity.VisualScripting.State.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\Unity.VisualScripting.State.dll",
+    "md5": "6a9dbfc5b6f804ed37386b09b20c2a98"
+  },
+  "UnityEngine.AccessibilityModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.AccessibilityModule.dll",
+    "md5": "6e0f03928c503a44a144ccc101f78ce2"
+  },
+  "UnityEngine.AIModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.AIModule.dll",
+    "md5": "04d4251c1e996da97cdb85b5df88eef8"
+  },
+  "UnityEngine.AMDModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.AMDModule.dll",
+    "md5": "ed8fef5335eee290d284d9f474e3ccb4"
+  },
+  "UnityEngine.AndroidJNIModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.AndroidJNIModule.dll",
+    "md5": "d205dea807dbe49c552ed37e2f0a9a55"
+  },
+  "UnityEngine.AnimationModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.AnimationModule.dll",
+    "md5": "d5508023492a8fec87eb9d09c84b4005"
+  },
+  "UnityEngine.ARModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.ARModule.dll",
+    "md5": "f219e5559ab7aa29d3d6e90b505dbbe8"
+  },
+  "UnityEngine.AssetBundleModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.AssetBundleModule.dll",
+    "md5": "db28f3d617690aa91d8ee3546561201b"
+  },
+  "UnityEngine.AudioModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.AudioModule.dll",
+    "md5": "dd63f6cecd0050e95920c68dfdbc358b"
+  },
+  "UnityEngine.ClothModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.ClothModule.dll",
+    "md5": "9c495b34e914f9c065a732c7830d8d06"
+  },
+  "UnityEngine.ClusterInputModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.ClusterInputModule.dll",
+    "md5": "ed48bfa5ab7b10a5d50fe492e24b5e0a"
+  },
+  "UnityEngine.ClusterRendererModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.ClusterRendererModule.dll",
+    "md5": "abfb8a8468e301227537dd9a7a2ccc21"
+  },
+  "UnityEngine.ContentLoadModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.ContentLoadModule.dll",
+    "md5": "67f2ac2f8bc26756b63c1e0d870de47f"
+  },
+  "UnityEngine.CoreModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.CoreModule.dll",
+    "md5": "18c5ed3a715f1fb9dd3298fad9392da2"
+  },
+  "UnityEngine.CrashReportingModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.CrashReportingModule.dll",
+    "md5": "2c8b567793fc198786f3f8c19400b808"
+  },
+  "UnityEngine.DirectorModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.DirectorModule.dll",
+    "md5": "574f6e362ab6eabfec31254f90c92d2f"
+  },
+  "UnityEngine.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.dll",
+    "md5": "d53c1f1076672ceaefcb033e2aaec368"
+  },
+  "UnityEngine.DSPGraphModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.DSPGraphModule.dll",
+    "md5": "98e870b06879254f7f63a212c0cdc589"
+  },
+  "UnityEngine.GameCenterModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.GameCenterModule.dll",
+    "md5": "9ff4f2307661edd9bdf95e64efe7295f"
+  },
+  "UnityEngine.GIModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.GIModule.dll",
+    "md5": "18612eda81ae220c105e768e534fd9f0"
+  },
+  "UnityEngine.GraphicsStateCollectionSerializerModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.GraphicsStateCollectionSerializerModule.dll",
+    "md5": "97e6f2396d507150b1b228968edd5e36"
+  },
+  "UnityEngine.GridModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.GridModule.dll",
+    "md5": "f883b6527dcd54c0c205ef08ebe3a649"
+  },
+  "UnityEngine.HierarchyCoreModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.HierarchyCoreModule.dll",
+    "md5": "024ab9b15cc656954015989408725a14"
+  },
+  "UnityEngine.HotReloadModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.HotReloadModule.dll",
+    "md5": "1ec8834212f19bfdfe9bef531abe6cfd"
+  },
+  "UnityEngine.ImageConversionModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.ImageConversionModule.dll",
+    "md5": "639d886a023b9728e42dfbc1a92b2898"
+  },
+  "UnityEngine.IMGUIModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.IMGUIModule.dll",
+    "md5": "1f80da118e28e889dc3430cc3f2593d1"
+  },
+  "UnityEngine.InputForUIModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.InputForUIModule.dll",
+    "md5": "87f8839acb7b5594b7dd1edd45dd5a25"
+  },
+  "UnityEngine.InputLegacyModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.InputLegacyModule.dll",
+    "md5": "55bb6085d081dcfd2027f2137a35c7cf"
+  },
+  "UnityEngine.InputModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.InputModule.dll",
+    "md5": "39b5732e8e8003323e0ad9bbe6e92dd4"
+  },
+  "UnityEngine.JSONSerializeModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.JSONSerializeModule.dll",
+    "md5": "7c71bae7db12952f638b2de0a79cfde9"
+  },
+  "UnityEngine.LocalizationModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.LocalizationModule.dll",
+    "md5": "5ed09238f172fb1bb2b2d4d473d24ae0"
+  },
+  "UnityEngine.MarshallingModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.MarshallingModule.dll",
+    "md5": "bc9347c4f71246dd4c512811145fae86"
+  },
+  "UnityEngine.MultiplayerModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.MultiplayerModule.dll",
+    "md5": "91c3e3b7317da4796e1664bb07189d5c"
+  },
+  "UnityEngine.NVIDIAModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.NVIDIAModule.dll",
+    "md5": "93a9800c94bdd481f20740b8db5c5124"
+  },
+  "UnityEngine.ParticleSystemModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.ParticleSystemModule.dll",
+    "md5": "b60396315293fb085edf95ee1ebf54f7"
+  },
+  "UnityEngine.PerformanceReportingModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.PerformanceReportingModule.dll",
+    "md5": "04991f91af108a21892f9bcf03fa662d"
+  },
+  "UnityEngine.Physics2DModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.Physics2DModule.dll",
+    "md5": "acbac239b3e4b3a7981b84c04751fee4"
+  },
+  "UnityEngine.PhysicsModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.PhysicsModule.dll",
+    "md5": "76623e8711f404934a4b8c6c95726ea6"
+  },
+  "UnityEngine.PropertiesModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.PropertiesModule.dll",
+    "md5": "38d37186423d010b0103729ceddb8e6c"
+  },
+  "UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+    "md5": "debe2843ca315718adcd43950ca6e4ff"
+  },
+  "UnityEngine.ScreenCaptureModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.ScreenCaptureModule.dll",
+    "md5": "6269d4f8a56e9975ed2bcf44bdfcd27a"
+  },
+  "UnityEngine.ShaderVariantAnalyticsModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.ShaderVariantAnalyticsModule.dll",
+    "md5": "79138dc38eb8da6ec3244926dace8329"
+  },
+  "UnityEngine.SharedInternalsModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.SharedInternalsModule.dll",
+    "md5": "2f29eace5dc027e8d56678d95bd78e49"
+  },
+  "UnityEngine.SpriteMaskModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.SpriteMaskModule.dll",
+    "md5": "e506bb5d1ab59d79c9f2a87760b5667a"
+  },
+  "UnityEngine.SpriteShapeModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.SpriteShapeModule.dll",
+    "md5": "e4aadb13dcebdd132cf217e770ddf1db"
+  },
+  "UnityEngine.StreamingModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.StreamingModule.dll",
+    "md5": "2ba74fae8de4306c648a1cbf1064a103"
+  },
+  "UnityEngine.SubstanceModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.SubstanceModule.dll",
+    "md5": "85f23761a994491a00e8b4a4c0d39772"
+  },
+  "UnityEngine.SubsystemsModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.SubsystemsModule.dll",
+    "md5": "f31818adc6889d1adce55c6fd003c13d"
+  },
+  "UnityEngine.TerrainModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.TerrainModule.dll",
+    "md5": "8559e7fb90a5f610b1c4163cb8d93cdc"
+  },
+  "UnityEngine.TerrainPhysicsModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll",
+    "md5": "e6f0d80f3e641ef18ccc5aa69628118c"
+  },
+  "UnityEngine.TextCoreFontEngineModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll",
+    "md5": "fb5ff495f90fbd01b7ab9bc62d9a1092"
+  },
+  "UnityEngine.TextCoreTextEngineModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll",
+    "md5": "b8524ae720d8f2713a825f57b2838bcb"
+  },
+  "UnityEngine.TextRenderingModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.TextRenderingModule.dll",
+    "md5": "23545372ef0426e4c947faeab95ec46e"
+  },
+  "UnityEngine.TilemapModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.TilemapModule.dll",
+    "md5": "b1580b44287b2dc5dfa03d56c4dc4022"
+  },
+  "UnityEngine.TLSModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.TLSModule.dll",
+    "md5": "fe70e080777137b24b7355bcb529cb25"
+  },
+  "UnityEngine.UI.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UI.dll",
+    "md5": "7f09b17b7fc6309ef6efcac7c14ba4a7"
+  },
+  "UnityEngine.UIElementsModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UIElementsModule.dll",
+    "md5": "a05918da20f53f1b8234c2e5d9b48c57"
+  },
+  "UnityEngine.UIModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UIModule.dll",
+    "md5": "e7061d2cc1f95667eaaf0b027fed5749"
+  },
+  "UnityEngine.UmbraModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UmbraModule.dll",
+    "md5": "450f58c9266b87ed750520461fa914f0"
+  },
+  "UnityEngine.UnityAnalyticsCommonModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll",
+    "md5": "ba2d011f65c3ffb37005eb955163eec3"
+  },
+  "UnityEngine.UnityAnalyticsModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll",
+    "md5": "29ea6df491fb447ab1479fe844d8316a"
+  },
+  "UnityEngine.UnityConnectModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityConnectModule.dll",
+    "md5": "f06f65cfe97d9b589bd01077c9e2e87e"
+  },
+  "UnityEngine.UnityCurlModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityCurlModule.dll",
+    "md5": "10c87f890b9b156a9cfefec27dd76bd8"
+  },
+  "UnityEngine.UnityTestProtocolModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityTestProtocolModule.dll",
+    "md5": "3ef48846db17520a2ad52621274bcbe2"
+  },
+  "UnityEngine.UnityWebRequestAssetBundleModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll",
+    "md5": "64a2393c5eab77e0229602cf0caa7e3f"
+  },
+  "UnityEngine.UnityWebRequestAudioModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll",
+    "md5": "5ee4f2611f263b0d25981eee76244c97"
+  },
+  "UnityEngine.UnityWebRequestModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityWebRequestModule.dll",
+    "md5": "19c0fa8a3c5b43f0198a42a173571363"
+  },
+  "UnityEngine.UnityWebRequestTextureModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll",
+    "md5": "e895fd5334ea8e169ac82871ae0b5a45"
+  },
+  "UnityEngine.UnityWebRequestWWWModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll",
+    "md5": "b46254ba58b2188aab3766d193405560"
+  },
+  "UnityEngine.VehiclesModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.VehiclesModule.dll",
+    "md5": "36b2f641e3f5317b9033daca72ffb1c5"
+  },
+  "UnityEngine.VFXModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.VFXModule.dll",
+    "md5": "ab8bb691aca815f134b0e986f578e121"
+  },
+  "UnityEngine.VideoModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.VideoModule.dll",
+    "md5": "11fd4bd6e779dc3e60b1ded8bdfa94c3"
+  },
+  "UnityEngine.VirtualTexturingModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.VirtualTexturingModule.dll",
+    "md5": "20c4cc3a6ffc2d41f80fab11a731c9bc"
+  },
+  "UnityEngine.VRModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.VRModule.dll",
+    "md5": "42a56e8d9b9a887a9af3b44d6a62e778"
+  },
+  "UnityEngine.WindModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.WindModule.dll",
+    "md5": "9850a53876355e45cbdc76da34b7a5d9"
+  },
+  "UnityEngine.XRModule.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityEngine.XRModule.dll",
+    "md5": "e166e09ebdbd23fa2bf2cf4d0c34d77a"
+  },
+  "UnityGLTF.Helpers.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityGLTF.Helpers.dll",
+    "md5": "805716c6f1e2679f9944265d60071cb4"
+  },
+  "UnityGLTF.Plugins.Experimental.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityGLTF.Plugins.Experimental.dll",
+    "md5": "a73e4ba5300f983dd09a5608cf431c85"
+  },
+  "UnityGltf.RenderPipelines.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityGltf.RenderPipelines.dll",
+    "md5": "a27f53f488cff6bd67bf2690932f290b"
+  },
+  "UnityGLTFScripts.dll": {
+    "path": "dominance\\My Dominance_Data\\Managed\\UnityGLTFScripts.dll",
+    "md5": "d98fc40d9ad7f742c27b0f734fd1e6a1"
+  },
+  "EOSSDK-Win32-Shipping.dll": {
+    "path": "dominance\\My Dominance_Data\\Plugins\\x86_64\\EOSSDK-Win32-Shipping.dll",
+    "md5": "18f563aff9f6d0d4d17bf4f1d476c831"
+  },
+  "EOSSDK-Win64-Shipping.dll": {
+    "path": "dominance\\My Dominance_Data\\Plugins\\x86_64\\EOSSDK-Win64-Shipping.dll",
+    "md5": "5132846a1e6439ba576036e08b39a938"
+  },
+  "lib_burst_generated.dll": {
+    "path": "dominance\\My Dominance_Data\\Plugins\\x86_64\\lib_burst_generated.dll",
+    "md5": "6d5cf9f8aa92ebac8e69b60d445e580f"
+  },
+  "unity default resources": {
+    "path": "dominance\\My Dominance_Data\\Resources\\unity default resources",
+    "md5": "1ba2fb9552b9405213531f14d08778e9"
+  },
+  "unity_builtin_extra": {
+    "path": "dominance\\My Dominance_Data\\Resources\\unity_builtin_extra",
+    "md5": "d07f531175480d36c8e2178e43b2841d"
+  },
+  "resources.assets": {
+    "path": "dominance\\My Dominance_Data\\resources.assets",
+    "md5": "7c7b245526c5196ecd69748add494ed3"
+  },
+  "resources.assets.resS": {
+    "path": "dominance\\My Dominance_Data\\resources.assets.resS",
+    "md5": "e4f4a053128707b936859247d4754f6f"
+  },
+  "RuntimeInitializeOnLoads.json": {
+    "path": "dominance\\My Dominance_Data\\RuntimeInitializeOnLoads.json",
+    "md5": "74e44be9543bbefcefd654fdacf6458e"
+  },
+  "ScriptingAssemblies.json": {
+    "path": "dominance\\My Dominance_Data\\ScriptingAssemblies.json",
+    "md5": "2af5fdffb89cecd27dc48a3231323b24"
+  },
+  "sharedassets0.assets": {
+    "path": "dominance\\My Dominance_Data\\sharedassets0.assets",
+    "md5": "7d7692df2b702f73396f6bcec5c2d136"
+  },
+  "sharedassets0.assets.resS": {
+    "path": "dominance\\My Dominance_Data\\sharedassets0.assets.resS",
+    "md5": "ae84584f6e4819705f9085bfc513bb52"
+  },
+  "sharedassets1.assets": {
+    "path": "dominance\\My Dominance_Data\\sharedassets1.assets",
+    "md5": "0a6eaabda185340629fadf4836f8a268"
+  },
+  "sharedassets1.assets.resS": {
+    "path": "dominance\\My Dominance_Data\\sharedassets1.assets.resS",
+    "md5": "74a381901b73c4d194949b15d151df3a"
+  },
+  "sharedassets1.resource": {
+    "path": "dominance\\My Dominance_Data\\sharedassets1.resource",
+    "md5": "807032710732c102dad79eb7382654a8"
+  },
+  "UnityCrashHandler64.exe": {
+    "path": "dominance\\UnityCrashHandler64.exe",
+    "md5": "affefa3461d76cc725c3a61bebef92db"
+  },
+  "UnityPlayer.dll": {
+    "path": "dominance\\UnityPlayer.dll",
+    "md5": "1293f635c6944db56a234c65d6bc51ce"
+  }
+}
