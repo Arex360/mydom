@@ -132,9 +132,7 @@ app.get('/verify', (req, res) => {
 
 // Call the function to generate file hash data at server startup
 app.listen(3003, () => {
-  exec('unzip dominance', (err, stdout, stderr) => {
     Filehash(); 
-})
   
   console.log('Server started on port 3003');
 });
