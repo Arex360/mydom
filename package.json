@@ -2,6 +2,7 @@
   "name": "dominance",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,7 @@
   "description": "",
   "dependencies": {
     "@apillon/sdk": "^3.7.0",
+    "cli-progress": "^3.12.0",
     "express": "^4.21.2",
     "ipfs-http-client": "^60.0.1"
   }
