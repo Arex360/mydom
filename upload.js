@@ -37,7 +37,7 @@ async function uploadToApillon(filePath, filename) {
         if (!fileExists) {
             throw new Error(`File not found at path: ${actualPath}`);
         }
-
+        console.log(filePath)
         const fileBuffer = fs.readFileSync(actualPath);  // Read the file into buffer
         const data = await bucket.uploadFiles([{
             fileName: filename,
