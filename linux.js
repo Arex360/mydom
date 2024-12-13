@@ -23,21 +23,18 @@ function calculateMD5(filePath) {
 // Function to upload a file to Apillon
 async function uploadToApillon(filePath, filename) {
     let actualPath = filePath;
-    filePath = filePath.replace('/', /\\/g);  // Replace backslashes with forward slashes
-    dirs = filePath.split('\\');
-    // Remove last dir
-    dirs.pop();
-    // Join them back
-    filePath = dirs.join('/') + '/';
-    console.log(filePath);
-    
+    let filePath = filePath.replace(/\\/g, '/');  // Replace backslashes with forward slashes
+    const dirs = filePath.split(path.sep);  // Cross-platform separator
+    dirs.pop();  // Remove last dir
+    filePath = dirs.join(path.sep) + path.sep;  // Join back paths
+
     try {
         const fileExists = fs.existsSync(actualPath);  // Check if file exists
 
         if (!fileExists) {
             throw new Error(`File not found at path: ${actualPath}`);
         }
-        
+
         const fileBuffer = fs.readFileSync(actualPath);  // Read the file into buffer
         const data = await bucket.uploadFiles([{
             fileName: filename,
@@ -70,7 +67,7 @@ async function traverseDirectory(dirPath, fileHashData, resourceData) {
     } else {
       // Skip specific files
       const localPath = path.relative(process.cwd(), fullPath);
-      if (localPath.includes('dominance.zip') || localPath.includes('.gitignore') || localPath.includes('resource.json') || localPath.includes('package-lock.json') || localPath.includes('file_hash.json') || localPath.includes('upload.js') || localPath.includes('index.js') || localPath.includes('node_modules') || localPath.includes('package.json') || localPath.includes('package-lock.json') || localPath.includes('file_hash.json') || localPath.includes('resource.json') || localPath.includes('upload.js') || localPath.includes('index.js') || localPath.includes('node_modules') || localPath.includes('package.json') || localPath.includes('package.json')) {
+      if (localPath.includes('dominance.zip') || localPath.includes('.gitignore') || localPath.includes('resource.json') || localPath.includes('package-lock.json') || localPath.includes('file_hash.json') || localPath.includes('upload.js') || localPath.includes('index.js') || localPath.includes('node_modules') || localPath.includes('package.json')) {
         continue;
       }
 
