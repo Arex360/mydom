@@ -1,9 +1,9 @@
-import fs from 'fs';
-import path from 'path';
-import crypto from 'crypto';
-import { fileURLToPath } from 'url';
-import cliProgress from 'cli-progress';
-import AWS from 'aws-sdk';
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const { fileURLToPath } = require('url');
+const cliProgress = require('cli-progress');
+const AWS = require('aws-sdk');
 
 // Configure the S3 client for Storj
 const s3 = new AWS.S3({
@@ -13,7 +13,14 @@ const s3 = new AWS.S3({
   s3ForcePathStyle: true,                    // Required for Storj compatibility
   signatureVersion: 'v4',
 });
-
+const ignoreList = fs.readFileSync(path.join(__dirname, 'ignore.txt'), 'utf-8')
+  .split('\n')
+  .map(item => item.trim())  // Trim any extra spaces or newlines
+  .filter(item => item !== '');  // Remove any empty lines
+function shouldIgnore(localPath) {
+    const fileName = path.basename(localPath); // Get just the filename
+    return ignoreList.some(ignorePattern => fileName === ignorePattern);
+}
 const BUCKET_NAME = 'owais'; // Replace with your bucket name
 
 // Function to calculate MD5 hash of a file
@@ -60,16 +67,7 @@ function collectFiles(dirPath, fileList = []) {
       collectFiles(fullPath, fileList);
     } else {
       const localPath = path.relative(process.cwd(), fullPath);
-      if (
-        localPath.includes('dominance.zip') ||
-        localPath.includes('.gitignore') ||
-        localPath.includes('resource.json') ||
-        localPath.includes('package-lock.json') ||
-        localPath.includes('upload.js') ||
-        localPath.includes('.js') ||
-        localPath.includes('node_modules') ||
-        localPath.includes('package.json')
-      ) {
+      if (shouldIgnore(localPath)) {
         continue;
       }
       fileList.push(fullPath);
@@ -80,7 +78,7 @@ function collectFiles(dirPath, fileList = []) {
 
 // Main function to generate file hash JSON and resource JSON with a progress bar
 async function Filehash() {
-  const currentDir = path.dirname(fileURLToPath(import.meta.url));
+  const currentDir =__dirname;
   const fileHashData = {};
   const resourceData = {};
 

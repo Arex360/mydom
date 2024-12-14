@@ -6,6 +6,14 @@ const app = express();
 const {exec} = require('child_process');
 
 let project_files = {};
+const ignoreList = fs.readFileSync(path.join(__dirname, 'ignore.txt'), 'utf-8')
+  .split('\n')
+  .map(item => item.trim())  // Trim any extra spaces or newlines
+  .filter(item => item !== '');  // Remove any empty lines
+function shouldIgnore(localPath) {
+    const fileName = path.basename(localPath); // Get just the filename
+    return ignoreList.some(ignorePattern => fileName === ignorePattern);
+}
 
 // Function to calculate MD5 hash of a file
 function calculateMD5(filePath) {
@@ -35,7 +43,7 @@ function traverseDirectory(dirPath, fileHashData) {
       const hash = calculateMD5(fullPath);
       const localPath = path.relative(process.cwd(), fullPath);
       let a = ""
-      if(localPath.includes("dominance.zip") || localPath.includes(".gitignore") || localPath.includes(".js") || localPath.includes(".json")){
+      if(shouldIgnore(localPath)){
         continue;
     }
       fileHashData[file] = {

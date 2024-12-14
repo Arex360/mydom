@@ -1,0 +1,12 @@
+ignore.txt
+index.js
+ipfs.js
+linux.js
+file_hash.json
+buck.js
+makefilehash.js 
+package-lock.json 
+package.json 
+resource.json 
+test.js 
+upload.js
