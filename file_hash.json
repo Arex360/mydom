@@ -1,47 +1,47 @@
 {
   "D3D12Core.dll": {
     "path": "MyDominance\\D3D12\\D3D12Core.dll",
-    "md5": "7fc05c9a8366d19302dfd13d09d3ebac"
+    "md5": "7fc05c9a8366d19302dfd13d09d3ekac"
   },
   "mono-2.0-bdwgc.dll": {
     "path": "MyDominance\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll",
-    "md5": "e4f80d5861c8f217795d0abeeee596ce"
+    "md5": "e4f80d5861c8f217795d0abeeee5sd6ce"
   },
   "MonoPosixHelper.dll": {
     "path": "MyDominance\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll",
-    "md5": "0a36537102dc76a6e5703f7f96484238"
+    "md5": "0a36537102dc76a6e5703f7f9648dfdf38"
   },
   "Compat.browser": {
     "path": "MyDominance\\MonoBleedingEdge\\etc\\mono\\4.5\\Browsers\\Compat.browser",
-    "md5": "0d831c1264b5b32a39fa347de368fe48"
+    "md5": "0d831c1264b5b32a39fa347de368feddfdf48"
   },
   "DefaultWsdlHelpGenerator.aspx": {
     "path": "MyDominance\\MonoBleedingEdge\\etc\\mono\\4.5\\DefaultWsdlHelpGenerator.aspx",
-    "md5": "f7be9f1841ff92f9d4040aed832e0c79"
+    "md5": "f7be9f1841ff92f9d4040aed832e0ssddc79"
   },
   "machine.config": {
     "path": "MyDominance\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config",
-    "md5": "25ff1ec49e3ac9285bd943cf036bd813"
+    "md5": "25ff1ec49e3ac9285bd943cf036bd8df13"
   },
   "settings.map": {
     "path": "MyDominance\\MonoBleedingEdge\\etc\\mono\\4.5\\settings.map",
-    "md5": "ba17ade8a8e3ee221377534c8136f617"
+    "md5": "ba17ade8a8e3ee221377534c8136fdfd617"
   },
   "web.config": {
     "path": "MyDominance\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config",
-    "md5": "5075af18fe1d2b5f9555d5cc68029814"
+    "md5": "5075af18fe1d2b5f9555d5cc68029dfdf814"
   },
   "browscap.ini": {
     "path": "MyDominance\\MonoBleedingEdge\\etc\\mono\\browscap.ini",
-    "md5": "378be809df7d15aac75a175693e25fbb"
+    "md5": "378be809df7d15aac75a175693e25fddfdfbb"
   },
   "config": {
     "path": "MyDominance\\MonoBleedingEdge\\etc\\mono\\config",
-    "md5": "67611b783439b35abfe05a97413bba46"
+    "md5": "67611b783439b35abfe05a97413dfdfdfbba46"
   },
   "config.xml": {
     "path": "MyDominance\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml",
-    "md5": "f34b330f20dce1bdcce9058fca287099"
+    "md5": "f34b330f20dce1fdfdfbdcce9058fca287099"
   },
   "My Dominance.exe": {
     "path": "MyDominance\\My Dominance.exe",
