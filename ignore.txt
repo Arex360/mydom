@@ -10,3 +10,4 @@ package.json
 resource.json 
 test.js 
 upload.js
+dominance.zip

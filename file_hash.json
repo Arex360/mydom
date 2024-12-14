@@ -3,10 +3,6 @@
     "path": ".gitignore",
     "md5": "5cdd73097818d7ef2f75d21248c7c6c1"
   },
-  "dominance.zip": {
-    "path": "dominance.zip",
-    "md5": "d38bc64f8941b582c6b422b47de009e5"
-  },
   "D3D12Core.dll": {
     "path": "MyDominance\\D3D12\\D3D12Core.dll",
     "md5": "7fc05c9a8366d19302dfd13d09d3ebac"
