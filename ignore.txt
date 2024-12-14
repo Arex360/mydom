@@ -11,3 +11,4 @@ resource.json
 test.js 
 upload.js
 dominance.zip
+.gitignore

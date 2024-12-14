@@ -742,5 +742,9 @@
   "UnityPlayer.dll": {
     "path": "MyDominance\\UnityPlayer.dll",
     "md5": "1293f635c6944db56a234c65d6bc51ce"
+  },
+  "oci.js": {
+    "path": "oci.js",
+    "md5": "0a84e1b688cd172c02940c2fe74c91f2"
   }
 }
