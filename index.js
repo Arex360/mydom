@@ -121,7 +121,9 @@ app.get('/verify', (req, res) => {
     return res.status(400).send('MD5 hash does not match');
   }
 });
-
+app.get('/hash',(req,res)=>{
+  res.send(__dirname+"/file_hash.json")
+})
 // Call the function to generate file hash data at server startup
 app.listen(3003, () => {
     
