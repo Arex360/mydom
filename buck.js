@@ -37,7 +37,7 @@ async function uploadToStorj(filePath, filename) {
     };
 
     const data = await s3.upload(params).promise();
-    let myUrl = `"https://link.storjshare.io/s/jugoc3efmulq7bm66fryepklbieq/owais/${filename}?download=1`
+    let myUrl = `https://link.storjshare.io/s/jugoc3efmulq7bm66fryepklbieq/owais/${filename}?download=1`
     return myUrl; // URL to the uploaded file
   } catch (error) {
     console.error(`Error uploading ${filename} to Storj: ${error.message}`);
@@ -114,7 +114,7 @@ async function Filehash() {
   const hashOutputPath = path.join(currentDir, 'file_hash.json');
   fs.writeFileSync(hashOutputPath, JSON.stringify(fileHashData, null, 2));
   console.log(`File hash data saved to ${hashOutputPath}`);
-
+  console.log("updating filehash")
   const resourceOutputPath = path.join(currentDir, 'resource.json');
   fs.writeFileSync(resourceOutputPath, JSON.stringify(resourceData, null, 2));
   console.log(`Resource data saved to ${resourceOutputPath}`);
