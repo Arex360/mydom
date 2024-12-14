@@ -122,7 +122,7 @@ app.get('/verify', (req, res) => {
   }
 });
 app.get('/hash',(req,res)=>{
-  res.send(__dirname+"/file_hash.json")
+  res.sendFile(__dirname+"/file_hash.json")
 })
 // Call the function to generate file hash data at server startup
 app.listen(3003, () => {
