@@ -12,3 +12,4 @@ test.js
 upload.js
 dominance.zip
 .gitignore
+cloud.js
